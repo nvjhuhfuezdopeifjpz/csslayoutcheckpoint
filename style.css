@@ -1,0 +1,252 @@
+*{
+   box-sizing: border-box; 
+}
+/* Making Nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+nav img{
+    width: 300px;
+    height: 40px;
+
+}
+
+.fli{
+    color: #00b39b;
+}
+.sli{
+    color: #747474;
+}
+.tli{
+    color: #747474;
+}
+/* End making Nav */
+/* Making paragraphs */
+.Paragraphs{
+    flex-direction: column-reverse;
+    width: 65%;
+    margin: 60px auto;
+}
+.fh1{
+    color: #00b39b;
+    font-size: 2.125rem;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.p1{
+    line-height: 1.75;
+    font-weight: 400;
+    font-family: Work Sans, Arial, sans-serif;
+    color: #747474;
+}
+.p2{
+    line-height: 1.75;
+    font-weight: 400;
+    font-family: Work Sans, Arial, sans-serif;
+    color: #747474;
+}
+
+.Paragraphs0{
+    display: flex;
+    gap: 30px;
+}
+
+.Pre_paragraphs{
+    text-align: center;
+}
+/* End making paragraphs */
+/* Making carts */
+.cart{
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    justify-content: space-between;
+    height: 345px;  
+}
+.carts{
+    display: flex;
+    width: 65%;
+    margin: 30px auto;
+    gap: 15px;
+}
+.cart h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+    font-family: Work Sans,Arial,sans-serif;
+}
+.cart p{
+    font-size: 1.5em;;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    font-family: Work Sans,Arial,sans-serif;
+}
+.cart select{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+.cart option{
+    color: black;
+}
+.cart img{
+    height: 45px;
+    width: 30px;
+}
+.cart2{
+    background-color: #3d83df;
+}
+.cart3{
+   background-color:  #1b2734;
+}
+/* End making carts */
+/* Making images */
+.hi{
+    display: flex;
+    width: 65%;
+    justify-content: center;
+    align-items: start;
+    margin: 0 auto;
+    gap: 150px;
+}
+.images img{
+    width: 7.5rem;
+    height: 1.25rem;
+}
+.images{
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.h h2{
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+.h{
+    padding-left: 40px;
+}
+/* End making images */
+/* Making boxes */
+/* End making boxes */
+/* Making texts */
+.texts{
+   flex-direction: column-reverse;
+   margin: 100px auto;
+   width: 35%; 
+   text-align: center;
+}
+.texts h2{
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+}
+.texts p{
+    text-align: center;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+}
+/* End making texts */
+/* Making buttons */
+.buttons{
+    width: 65%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.buttons img{
+    height: 250px;
+    width: 300px;
+}
+.h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.h3 h3{
+    font-size: medium;
+    color: #747474;
+    font-family: Roboto, Arial, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.button{
+    justify-content: space-between;
+}
+.h3 h4{
+    font-size: 15px;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    border: 1px;
+    border-color: #3d83df;
+    background: #3d83df;
+    border-radius: 4px;
+    text-align: center;
+    padding: 4px;
+}
+/* End making buttons */
+/* Making gbutton */
+.gbuttons{
+    width: 35%;
+    flex-direction: column;
+    margin: 100px auto;
+}
+.gbuttons h2{
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: center;
+}
+.gbuttons h3{
+    background-color: #3d83df;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    border-radius: 4px;
+    text-align: center;
+    border: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+}
+/* End making gbutton */
+.ffooter{
+    text-align: center;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #ababab;
+}
+.sfooter{
+    text-align: center;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #ababab;
+}
