@@ -1,17 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
    box-sizing: border-box; 
+   font-family: 'Work Sans', sans-serif;
 }
 /* Making Nav */
+.nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
 nav{
     display: flex;
     justify-content: space-between;
     width: 65%;
     margin: 0 auto;
+    background-color: white;
+
 }
 nav ul{
     display: flex;
     list-style: none;
     gap: 10px;
+}
+nav li:hover{
+    color: #00b39b;
 }
 nav img{
     width: 300px;
@@ -33,7 +46,8 @@ nav img{
 .Paragraphs{
     flex-direction: column-reverse;
     width: 65%;
-    margin: 60px auto;
+    margin: 80px auto;
+
 }
 .fh1{
     color: #00b39b;
@@ -149,6 +163,70 @@ nav img{
 }
 /* End making images */
 /* Making boxes */
+.all{
+    margin-top: 100px;
+    width: 100%;
+    background-color: #d5faf5;
+    height: 700px;
+}
+.left{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 250px;
+
+}
+.lr{
+    width: 65%;
+    flex-direction: row;
+    display: flex;
+    gap: 500px;
+}
+.left h2{
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-weight: 300;
+}
+.left p{
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    font-size: .875em;
+}
+.right{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    padding-top: 25px;
+    flex-wrap: wrap;
+}
+.up{
+    display: flex;
+    gap: 25px;
+}
+.down{
+    display: flex;
+    gap: 25px;
+}
+.content h3{
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: 0.5em 0;
+    font-weight: 300;
+}
+.content p{
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+}
+.content{
+    text-align: center;
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+}
 /* End making boxes */
 /* Making texts */
 .texts{
@@ -181,6 +259,7 @@ nav img{
 .buttons img{
     height: 250px;
     width: 300px;
+    border-radius: 10px;
 }
 .h3{
     display: flex;
@@ -196,17 +275,24 @@ nav img{
 }
 .button{
     justify-content: space-between;
+    margin: 5px;
+    border-radius: 10px;
 }
-.h3 h4{
+.button:hover{
+    box-shadow: -2px 6px 8px 7px rgba(32,32,32,0.17);
+-webkit-box-shadow: -2px 6px 8px 7px rgba(32,32,32,0.17);
+-moz-box-shadow: -2px 6px 8px 7px rgba(32,32,32,0.17);
+}
+button{
     font-size: 15px;
     color: white;
     font-family: Roboto, Arial, sans-serif;
     border: 1px;
-    border-color: #3d83df;
-    background: #3d83df;
-    border-radius: 4px;
+    border-radius: 5px;
     text-align: center;
-    padding: 4px;
+    padding: 8px;
+    background-color: #3d83df;
+    margin-right: 10px;
 }
 /* End making buttons */
 /* Making gbutton */
@@ -214,6 +300,7 @@ nav img{
     width: 35%;
     flex-direction: column;
     margin: 100px auto;
+    text-align: center;
 }
 .gbuttons h2{
     font-size: 2.1428571429em;
@@ -224,19 +311,7 @@ nav img{
     letter-spacing: -0.3px;
     text-align: center;
 }
-.gbuttons h3{
-    background-color: #3d83df;
-    color: #fff;
-    font-family: Roboto, Arial, sans-serif;
-    border-radius: 4px;
-    text-align: center;
-    border: #fff;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    font-size: 12px;
-}
+
 /* End making gbutton */
 .ffooter{
     text-align: center;
@@ -249,4 +324,11 @@ nav img{
     font-size: 12px;
     font-family: Roboto, Arial, sans-serif;
     color: #ababab;
+}
+.ffooter a{
+    text-decoration: none;
+    color: #3d83df;
+}
+a:hover{
+    text-decoration: underline;
 }
